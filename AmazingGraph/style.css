@@ -1,7 +1,6 @@
 /* RESET */
 *{
-    padding: 0;
-    margin: 0;
+    
     text-decoration: none;
     font-family: 'Roboto',sans-serif;
 }
@@ -52,7 +51,6 @@ a.logo{
 }
 
 .text > p{
-    padding: 20px 0;
     font-size: 1.5rem;
 }
 
@@ -61,7 +59,6 @@ a.logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     width: 15.625rem;
     height: 3.125rem;
     border-radius: 10px; 
