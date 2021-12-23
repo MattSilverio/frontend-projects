@@ -74,3 +74,50 @@ img{
     width: 45rem;
     height: 25rem;
 }
+
+@media (max-width: 700px){
+    #header{
+        padding: 2rem;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    a.logo{
+        font-size: 18px;
+    }
+
+    
+    .text > h1 {
+        margin: 18px 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .text > p{
+        margin-bottom: 32px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .button-start {
+        width: 17rem;
+    }
+
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img{
+        width: 18rem;
+        height: 12rem;
+        order: 1;
+    }
+
+    .text{
+        order: 2;
+    }
+}
