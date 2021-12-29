@@ -26,13 +26,33 @@ img{
     max-width: 100%;
 }
 
-/* CABEÇALHO */
-.cabecalho{
+/* CONTAINEIR */
+.container {
     width: 100%;
     float: left;
     padding: 3% 4%;
+    text-align: center;
 }
 
+/* BACKGROUND COLORS */
+.bg-gradient {
+    background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.bg-black{
+    background-color: #130400;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+/* HELPERS */
+.radius {
+    border-radius: 7px;
+}
+
+/* CABEÇALHO */
 .logo{
     width: 56px;
     height: 56px;
@@ -49,7 +69,6 @@ img{
     color: #fff;
     border-radius: 56px;
     cursor: pointer;
-    background: linear-gradient(to right, #ce2e3c, #da6709);
 }
 
 /* MENU */
@@ -93,11 +112,7 @@ img{
 
 /* BANNER */
 .banner{
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 3% 4%;
-    background-image: url(../img/bg.jpg);
+    background: url(../img/bg.jpg) no-repeat fixed;
 }
 
 .title {
@@ -124,40 +139,26 @@ img{
     float: right;
 }
 
-.btn-cadastrar{
+.btn {
     width: 100%;
     font-size: 1.5em;
     text-align: left;
     cursor: pointer;
     padding: 5%;
-    border-radius: 10px;
-    background-color: #fff;
+}
+
+.btn-cadastrar{
     color: #130400;
 }
 
 .btn-sobre{
-    width: 100%;
-    font-size: 1.5em;
-    text-align: left;
-    cursor: pointer;
-    padding: 5%;
-    border-radius: 10px;
-    background-color: #130400;
     color: #fff;
     margin-top: 2%;
 }
 /* SERVIÇOS */
-.servicos {
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
-}
-
 .servico {
     width: 100%;
-    background-color: #fff;
     text-align: left;
-    border-radius: 7px;
     margin-bottom: 3%;
 }
 
@@ -188,14 +189,6 @@ img{
 }
 
 /* NEWSLETTER */
-.newsletter{
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 3% 4%;
-    background-color: #130400;
-}
-
 .newsletter h2 {
     font-size: 1.5em;
     color: #fff;
@@ -212,16 +205,13 @@ img{
 
 .newsletter input{
     width: 100%;
-    background-color: #130400 ;
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.836);
     padding: 5%;
-    border-radius: 5px;
 }
 
 .newsletter button{
     width: 100%;
-    background-color: #fff;
     color: #130400;
     padding: 5%;
     cursor: pointer;
@@ -229,14 +219,6 @@ img{
 }
 
 /* RODAPÉ */
-.rodape {
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
-    text-align: center;
-    background: linear-gradient(to right, #ce2e3c, #da6709);
-}
-
 .social-icons a{
     font-size: 1.5em;
     color: rgba(255,255,255,0.7);
@@ -255,4 +237,99 @@ img{
 {
     margin-top: 2%;
     color: rgba(255,255,255,0.7);
+}
+
+/* MOBILE FIRST */
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+    .logo{
+        width: 214px;
+        float: left;
+        background: url(../img/logo.png) center center/214px no-repeat;
+        font-size: 0;
+    }
+
+    .btn{
+        font-size: 2em;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 768px){
+    .servico {
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .servico:nth-child(2){
+        margin-right: 0%;
+    }
+
+    .newsletter h2{
+        font-size: 2em;
+    }
+
+    .newsletter h3{
+        font-size: 1.5em;
+    }
+
+    .newsletter input {
+        width: 70%;
+        padding: 2%;
+        float: left;
+        margin-right: 1%;
+    }
+
+    .newsletter button {
+        width: 29%;
+        padding: 2%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+@media screen and (min-width: 960px) {
+    .title {
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .title h2{
+        font-size: 3em;
+    }
+
+    .title h3 {
+        font-size: 2em;
+    }
+
+    .buttons {
+        width: 30%;
+        float: right;
+        margin-top: 0;
+    }
+
+    .servico {
+        width: 32%;
+    }
+
+    .servico:nth-child(2){
+        margin-right: 2%;
+    }
+
+    .servico:nth-child(3){
+        margin-right: 0;
+    }
+
+    .newsletter input {
+        width: 60%;
+        float: none;
+    }
+
+    .newsletter button {
+        width: 20%;
+        float: none;
+    }
 }
