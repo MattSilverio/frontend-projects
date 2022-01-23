@@ -1,0 +1,109 @@
+:root{
+    --cinza: #f7f7f7;
+    --cinza-escuro: #c6c6c6;
+    --vermelho: #ee2211;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+body{
+    background: var(--cinza);
+    display: grid;
+    gap: 60px;
+    margin-top: 60px;
+    justify-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    color: black;
+    padding: 15px 30px;
+    background: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.menu a:hover{
+    background-color: var(--cinza-escuro);
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.card-principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.intro{
+    background: white;
+    padding: 40px;
+    text-align: right;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: end;
+}
+
+.intro a{
+    color: white;
+    text-transform: uppercase;
+    background-color: var(--vermelho);
+    padding: 15px 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+}
+
+.intro a:hover{
+    padding: 20px 40px;
+}
+
+.subtitulo{
+    color: var(--cinza-escuro);
+    text-transform: uppercase;
+    font-size: 64px;
+    padding: 40px;
+    text-align: right;
+    align-self: center;
+}
+
+.vantagens{
+    background: white;
+    padding: 40px;
+}
+
+.vantagens-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.vantagens-item p{
+    grid-column: 2;
+}
+
+footer{
+    background: white;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
