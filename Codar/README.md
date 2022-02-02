@@ -1,3 +1,9 @@
+# ACESSE https://mattsilverio.github.io/frontend-projects/Codar/ NO COMPUTADOR OU CELULAR PARA VERIFICAR O MEU RESULTADO
+
+- [x] Mobile view 
+- [] Desktop view
+
+
 <br />
 <p align="center">
   <a href="http://www.freepik.com">
