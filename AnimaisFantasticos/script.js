@@ -94,3 +94,4 @@ const sections = document.querySelectorAll('.js-scroll')
     window.addEventListener('scroll', animaScroll)
   }
 }
+initAnimationScroll()
