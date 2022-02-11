@@ -72,7 +72,7 @@ initSmoothScroll()
 
 function initAnimationScroll(){
 const sections = document.querySelectorAll('.js-scroll')
-  if(section.length){
+  if(sections.length){
     const windowMetade = window.innerHeight * 0.6
 
     function animaScroll(){
