@@ -12,3 +12,6 @@ https://mattsilverio.github.io/frontend-projects/Codar/
 
 ### NodeProp
 https://mattsilverio.github.io/frontend-projects/NodeProp/
+
+### ToDo List
+https://mattsilverio.github.io/frontend-projects/exercises/local-storage/
