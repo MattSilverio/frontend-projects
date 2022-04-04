@@ -15,3 +15,6 @@ https://mattsilverio.github.io/frontend-projects/NodeProp/
 
 ### ToDo List
 https://mattsilverio.github.io/frontend-projects/exercises/local-storage/
+
+### FlexBlog
+https://mattsilverio.github.io/frontend-projects/FlexBlog/
