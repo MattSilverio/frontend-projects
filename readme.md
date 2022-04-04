@@ -13,11 +13,17 @@ https://user-images.githubusercontent.com/18178688/161464924-1282b6b1-1daa-4783-
 ### Codar
 https://mattsilverio.github.io/frontend-projects/Codar/
 
+https://user-images.githubusercontent.com/18178688/161465327-bf03d02e-e207-4c63-bf43-ed412fca6672.mp4
+
 ### NodeProp
 https://mattsilverio.github.io/frontend-projects/NodeProp/
 
+https://user-images.githubusercontent.com/18178688/161465572-9c2a874c-548b-4dec-9e0c-d6621bdb254d.mp4
+
 ### ToDo List
 https://mattsilverio.github.io/frontend-projects/exercises/local-storage/
+
+https://user-images.githubusercontent.com/18178688/161465672-d32e1cfd-4627-40a3-88b4-e96b2b8280fc.mp4
 
 ### FlexBlog
 https://mattsilverio.github.io/frontend-projects/FlexBlog/
