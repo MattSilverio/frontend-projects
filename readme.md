@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/18178688/161465870-f841cc5a-d621-46fc-
 
 
 ### Jogo da Velha
-https://mattsilverio.github.io/frontend-projects/Jogodavelha/
+https://mattsilverio.github.io/frontend-projects/Jogo da velha/
 
 https://user-images.githubusercontent.com/18178688/163662187-8c086654-5ad6-439b-837d-90f5f26b501d.mp4
 
